@@ -9,13 +9,6 @@ class CreateCostumeStores << ActiveRecord::Migration
       t.integer :in_business
       t.datetime  :opening_time
       t.datetime  :closing_time
-
-location
-number of costumes, or "costume inventory"
-number of employees
-whether or not its still in business
-opening time
-closing time
     end
   end
 end
